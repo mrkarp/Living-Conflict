@@ -1,3 +1,3 @@
 # Living-Conflict
 Arma3 Military Survival
-Description:
+Surviving in the warzone can be brutal, and sometimes rewarding!
