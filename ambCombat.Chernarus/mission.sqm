@@ -1,0 +1,213 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"aia_chernarus_config",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"CAMisc",
+		"aia_misc_config",
+		"mas_weapons_m4",
+		"A3_Modules_F"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"A3_Modules_F",
+		"mas_weapons_m4",
+		"aia_chernarus_config"
+	};
+	randomSeed=1877712;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Groups
+	{
+		items=3;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6537.1655,5.950551,2879.7932};
+					azimut=138.51012;
+					id=0;
+					side="WEST";
+					vehicle="B_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7351.5171,-6.6477785,2503.394};
+					id=1;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = [""chernoHouse"", 2, true, 2, 50, 100, 0.10, nil, nil, 9] execVM ""LV\fillHouse.sqf"";";
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7440.729,0.35090539,2639.1514};
+					id=2;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					init="nul = [150,600,10,30,8,[0,1,1],getMarkerpos ""chernoHouse"",[0.2,0.3,0.1,0.55,0.25,1,1,0.25,1,1],1,800,""hint format['spawning unit: %1',this];"",       [""AWARE"",""SAD""],false] execVM ""LV\ambientCombat.sqf"";";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={6546.0444,5.9941792,2872.4644};
+			id=3;
+			side="EMPTY";
+			vehicle="Box_mas_us_rifle_Wps_F";
+			skill=0.60000002;
+			init="this addAction[""<t color='#ff1111'>Virtual Ammobox</t>"", ""VAS\open.sqf""];";
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={6750.8657,6,2587.0376};
+			name="chernoHouse";
+			type="Empty";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"aia_chernarus_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_chernarus_config"
+	};
+	randomSeed=14317549;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"aia_chernarus_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_chernarus_config"
+	};
+	randomSeed=14867557;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"aia_chernarus_config"
+	};
+	addOnsAuto[]=
+	{
+		"aia_chernarus_config"
+	};
+	randomSeed=3877056;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};

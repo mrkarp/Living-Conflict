@@ -1,0 +1,8 @@
+enableDebugConsole = 1;	
+disableAI = true;
+
+#include "VAS\menu.hpp"
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+};
