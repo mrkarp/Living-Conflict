@@ -14,7 +14,7 @@ if(timeToSpawn && !isSpawned) then {
 	sleep 5;
 	systemChat 'Running Spawn Script';
 	//nul = [1, 100, 4, 300, 10, [1,1,1], _pos, 0.2, 1, 200, "systemChat 'spawning'", 1, true] execVM "LV\ambientCombat.sqf";
-	nul = [150, 600, 10, 30, 8, [0,1,1], _pos, [0.2,0.3,0.1,0.55,0.25,1,1,0.25,1,1], 1, 800, "systemChat 'spawning'", ["AWARE","SAD"], true] execVM "LV\ambientCombat.sqf";
+	//nul = [150, 600, 10, 30, 8, [0,1,1], _pos, [0.2,0.3,0.1,0.55,0.25,1,1,0.25,1,1], 1, 800, "systemChat 'spawning'", ["AWARE","SAD"], true] execVM "LV\ambientCombat.sqf";
 	
 } else {
 	isSpawned = true;

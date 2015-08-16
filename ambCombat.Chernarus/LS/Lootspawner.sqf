@@ -2,7 +2,7 @@
 //	Author: Na_Palm (BIS forums)
 //	credit to: Ed! (404Forums) and [GoT] JoSchaap (GoT2DayZ.nl) for initial script
 //-------------------------------------------------------------------------------------
-if (!isServer) exitwith {};
+if (isServer) exitwith {};
 private["_buildingname","_chfullfuel","_chperSpot","_class","_dbgloopTime","_dbgloopTimeplU","_dbgTime","_dbgTurns","_dbgTurnsplU","_endloop","_genZadjust","_hndl","_item","_nearLootdist","_pos","_posAdjustZ","_posAdjustZlist","_poscount","_posIdxlist","_posnew","_posOrg","_posViable","_randomweapontestint","_spawnradius","_spInterval","_testpos","_tmpBuild","_tmpPoslist","_tmpTstPlace","_z"];
 //-------------------------------------------------------------------------------------
 //Switch

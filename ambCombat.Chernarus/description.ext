@@ -1,7 +1,11 @@
-enableDebugConsole = 1;	
-disableAI = true;
+OnLoadMission = "Surviving War";
+respawn = BASE;
+respawndelay = 2;
+disabledAI = true;
+enableDebugConsole = 1;
 
 #include "VAS\menu.hpp"
+
 class CfgFunctions
 {
 	#include "VAS\cfgfunctions.hpp"
